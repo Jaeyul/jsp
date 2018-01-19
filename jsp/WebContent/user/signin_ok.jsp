@@ -31,5 +31,9 @@ Gson gs = new Gson();
 Map<String, String[]> map = gs.fromJson(request.getParameter("param"), HashMap.class);
 String json = gs.toJson(map);
 out.println(json);
-
 %>
+
+
+
+
+
